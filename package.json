@@ -1,0 +1,32 @@
+{
+  "name": "xstate-actor-ecosystem",
+  "version": "0.1.0",
+  "description": "supports creation and communication of xstate actor ecosystem",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc -p .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhirjgupta/xstate-actor-ecosystem.git"
+  },
+  "keywords": [
+    "xstate",
+    "actor"
+  ],
+  "author": "Dhirj Gupta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhirjgupta/xstate-actor-ecosystem/issues"
+  },
+  "homepage": "https://github.com/dhirjgupta/xstate-actor-ecosystem#readme",
+  "dependencies": {
+    "lodash": "^4.17.20",
+    "xstate": "^4.14.0"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.165",
+    "typescript": "^4.0.5"
+  }
+}
