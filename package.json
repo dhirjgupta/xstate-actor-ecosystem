@@ -1,11 +1,11 @@
 {
-  "name": "xstate-actor-ecosystem",
+  "name": "@xstate-ecosystem/core",
   "version": "0.1.0",
-  "description": "supports creation and communication of xstate actor ecosystem",
+  "description": "allows one to create an actor ecosystem for your xstate machines, register machines as actors, and manage communication of actors within that ecosystem.",
   "main": "lib/index.js",
   "scripts": {
     "build": "tsc -p .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
   "repository": {
     "type": "git",
@@ -15,7 +15,7 @@
     "xstate",
     "actor"
   ],
-  "author": "Dhirj Gupta",
+  "author": "Dhirj Gupta <jmdude27@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/dhirjgupta/xstate-actor-ecosystem/issues"
